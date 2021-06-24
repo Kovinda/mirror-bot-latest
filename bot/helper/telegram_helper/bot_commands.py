@@ -28,6 +28,6 @@ class _BotCommands:
         self.MediaInfoCommand = 'mediainfo'
         self.ConfigMenuCommand = 'config'
         self.ShellCommand = 'shell'
-
+        self.UpdateCommand = 'update'
 
 BotCommands = _BotCommands()
