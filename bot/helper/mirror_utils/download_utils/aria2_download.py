@@ -95,7 +95,6 @@ class AriaDownloadHelper(DownloadHelper):
     def start_listener(self):
         aria2.listen_to_notifications(threaded=True, on_download_start=self.__onDownloadStarted,
                                       on_download_error=self.__onDownloadError,
-                                      on_download_pause=self.__onDownloadPause,
                                       on_download_stop=self.__onDownloadStopped,
                                       on_download_complete=self.__onDownloadComplete)
 
